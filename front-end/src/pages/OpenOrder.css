@@ -1,0 +1,22 @@
+
+.menuList {
+    height: min-content;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: 100vh;
+}
+
+.menuItem {
+    height: 8em;
+    width: 12em;
+    margin: 2em 1em 0 1em;
+}
+
+.menuItem.card {
+    background-color: var(--c-light);
+}
+
+div.card-subtitle {
+    color: var(--c-accent);
+}
