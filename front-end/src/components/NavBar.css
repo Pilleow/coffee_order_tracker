@@ -1,0 +1,18 @@
+nav {
+    background-color: var(--c-black);
+}
+.navbar-brand {
+    transition-duration: .3s;
+    color: var(--c-white);
+}
+.navbar-brand:hover {
+    color: var(--c-light);
+}
+
+.nav-link {
+    transition-duration: .3s;
+    color: var(--c-light);
+}
+.nav-link:hover {
+    color: var(--c-white);
+}
